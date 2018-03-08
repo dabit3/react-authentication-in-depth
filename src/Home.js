@@ -3,10 +3,22 @@ import { withRouter, Link } from 'react-router-dom'
 import { Auth } from 'aws-amplify'
 
 class Home extends React.Component {
+  state = {
+    username: ''
+  }
+  componentDidMount() {
+    Auth.currentUserInfo()
+      .then(data => {
+        this.setState({
+          username: data.username
+        })
+      })
+      .catch(err => console.log('error: ', err))
+  }
   render() {
     return (
       <div>
-        <h1>Home</h1>
+        <h1>Welcome {this.state.username}</h1>
         <Link to='/route1' label='route1'>Route 1</Link>
       </div>
     )

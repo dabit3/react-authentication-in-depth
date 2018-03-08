@@ -115,7 +115,7 @@ const styles = {
     marginBottom: '10px',
     border: 'none',
     outline: 'none',
-    borderBottom: '2px solid #2196F3',
+    borderBottom: '2px solid #4CAF50',
     fontSize: '16px',
     '::placeholder': {
       color: 'rgba(0, 0, 0, .3)'

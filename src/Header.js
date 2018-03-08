@@ -21,7 +21,7 @@ const styles = {
   container: {
     height: '80px',
     width: '100%',
-    backgroundColor: '#2196F3'
+    backgroundColor: '#4CAF50'
   }
 }
 
