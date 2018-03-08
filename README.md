@@ -25,7 +25,7 @@ npm start
 ## Setting up AWS services    
 If you do not have your AWS services already created, follow these steps. If you already have your services set up, just configure your aws-exports.js file.    
 
-1. create awsmobile project    
+1. from the root of the project, create awsmobile project    
 
 ```
 awsmobile init
@@ -37,7 +37,7 @@ awsmobile init
 awsmobile user-signin enable
 ```
 
-3. Push new services to console    
+3. push new services to console    
 
 ```
 awsmobile push
