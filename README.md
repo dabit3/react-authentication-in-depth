@@ -2,7 +2,7 @@
 
 This repo goes along with the blog post React Authentication in Depth
 
-![Completed Project](https://raw.githubusercontent.com/dabit3/react-authentication-in-depth/master/src/assets/authdemo.jpg)
+![Completed Project](https://github.com/dabit3/react-authentication-in-depth/blob/master/src/assets/authdemo.jpg?raw=true)
 
 
 ## This project features:    
