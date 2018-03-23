@@ -65,8 +65,8 @@ class SignUp extends React.Component {
                 onChange={evt => this.onChange('phone_number', evt.target.value)}
               />
               <div {...css(styles.button)} onClick={this.signUp}>
-                  <p {...css(styles.buttonText)}>Sign Up</p>
-                </div>
+                <p {...css(styles.buttonText)}>Sign Up</p>
+              </div>
             </div>
           )
         }

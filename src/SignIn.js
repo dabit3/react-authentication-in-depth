@@ -19,13 +19,17 @@ class SignIn extends React.Component {
   }
   signIn = () => {
     Auth.signIn(this.state.username, this.state.password)
-      .then(user => this.setState({ user, showConfirmation: true }))
+      .then(user => {
+        this.setState({ user, showConfirmation: true })
+      })
       .catch(err => console.log('error signing in...: ', err))
   }
   confirmSignIn = () => {
     const { history } = this.props
     Auth.confirmSignIn(this.state.user, this.state.authCode)
-      .then(() => history.push('/'))
+      .then(user => {
+        history.push('/')
+      })
       .catch(err => console.log('error confirming signing in...: ', err))
   }
   render() {

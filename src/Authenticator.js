@@ -1,7 +1,6 @@
 import React from 'react'
 import { css } from 'glamor'
 import { withRouter } from 'react-router-dom'
-import { Auth } from 'aws-amplify'
 
 import SignIn from './SignIn'
 import SignUp from './SignUp'
