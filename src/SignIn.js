@@ -26,7 +26,7 @@ class SignIn extends React.Component {
   }
   confirmSignIn = () => {
     const { history } = this.props
-    Auth.confirmSignIn(this.state.user, this.state.authCode)
+    Auth.confirmSignIn(this.state.user, this.state.authCode, this.state.user.challengeName)
       .then(user => {
         history.push('/')
       })

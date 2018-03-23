@@ -67,13 +67,11 @@ PrivateRoute = withRouter(PrivateRoute)
 
 const Routes = () => (
   <Router>
-    <div>
-      <Switch>
-        <Route path='/auth' component={Authenticator} />
-        <PrivateRoute path='/route1' component={Route1} />
-        <PrivateRoute path='/' component={Home} />
-      </Switch>
-    </div>
+    <Switch>
+      <Route path='/auth' component={Authenticator} />
+      <PrivateRoute path='/route1' component={Route1} />
+      <PrivateRoute path='/' component={Home} />
+    </Switch>
   </Router>
 )
 
