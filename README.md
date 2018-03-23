@@ -9,7 +9,9 @@ This repo goes along with the blog post React Authentication in Depth
 - User sign up
 - User sign in
 - 2 factor authentication
-- Real world auth flow using React Router    
+- Real world auth flow using React Router
+- TOTP    
+
 
 ## Getting started    
 
