@@ -1,4 +1,4 @@
-# React Authentication Boilerplate
+# React Authentication Example
 
 This repo goes along with the blog post React Authentication in Depth
 
@@ -10,6 +10,8 @@ This repo goes along with the blog post React Authentication in Depth
 - User sign in
 - 2 factor authentication
 - Real world auth flow using React Router
+- Protected routes
+- Redirects for unauthorized users
 - TOTP    
 
 
